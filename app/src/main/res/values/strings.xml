@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RickandMorty</string>
+    <string name="transitionname_picture">transitionnamepicture</string>
+</resources>

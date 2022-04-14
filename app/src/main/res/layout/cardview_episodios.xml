@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="5dp"
+    app:cardBackgroundColor="@color/colorwhiteBackground">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/Nombre_Episodio_Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Nombre"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_marginBottom="7dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Episodio:"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/Num_Episodio_Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Lanzamiento:"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/Lanzamiento_Episodio_Card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>
